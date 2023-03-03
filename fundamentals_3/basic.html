@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta = charset="UTF-8">
+        <title>Titulo</title>
+    </head>
+    <body>
+        <script>
+            /*
+            function capitalizeFirstLetter(str) {
+                let result="";
+                console.log(str.length);
+                for(let step = 0;step < str.length;step++){
+                    if(str.charAt(step)==str.charAt(step).toLowerCase()){
+
+                        result += str.charAt(step);
+
+                    }else{
+
+                        result += str.charAt(step).toLowerCase();
+
+                    }
+                }
+                //console.log(result.length);
+                const capitalized = result.charAt(0).toUpperCase() + result.slice(1);
+
+                return capitalized;
+            }
+            */
+
+            function lastLetter(word){
+                return word.charAt(word.length-1);
+            }
+
+            // take input
+            const string = prompt('Enter a string: ');
+
+            const result1 = lastLetter(string);
+
+            console.log(result1);
+
+        </script>
+    </body>
+
+
+</html>
